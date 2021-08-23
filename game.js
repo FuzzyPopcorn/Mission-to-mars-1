@@ -28,8 +28,9 @@ class Game{
         Rocket1 = createSprite(500,600);
         Rocket1.addImage(rocket1Img)
 
-        Rocket2 = createSprite(700,600);
+        Rocket2 = createSprite(650,600);
         Rocket2.addImage(rocket2Img)
+        Rocket2.scale = 1.5
 
         Rockets = [Rocket1, Rocket2]
 

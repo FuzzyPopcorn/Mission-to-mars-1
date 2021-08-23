@@ -12,9 +12,9 @@ function preload(){
   bgImg = loadImage("images/BackgroundImg.jpg")
   endImg = loadImage("images/EndingImg.png")
   rocket1Img = loadImage("images/rocket1.png")
-  rocket1.fireImg = loadImage("images/rocket1-fire.png")
+  rocket1fireImg = loadImage("images/rocket1-fire.png")
   rocket2Img = loadImage("images/rocket2.png")
-  rocket2.fireImg = loadImage("images/rocket2-fire.png")
+  rocket2fireImg = loadImage("images/rocket2-fire.png")
 
 }
 
@@ -30,6 +30,7 @@ function draw() {
   
    if (playerCount === 2) {
      game.update(1);
+     console.log("checking")
      
    }
    if (gameState === 1 || playerCount === 2) {
